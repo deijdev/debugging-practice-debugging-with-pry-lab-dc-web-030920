@@ -1,7 +1,15 @@
-def snake_it_up(string)
-  if string[0] == "s"
-  10 * "s" + string
+require 'pry'
+
+def snake_it_up(word)
+  if word[0] == "s"
+  (10 * "s") + word
   else
-  string
+  word
+  binding.pry
   end
 end
+
+
+
+
+
